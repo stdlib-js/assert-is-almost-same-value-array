@@ -42,7 +42,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import isAlmostSameValueArray from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-almost-same-value-array@deno/mod.js';
+import isAlmostSameValueArray from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-almost-same-value-array@v0.1.0-deno/mod.js';
 ```
 
 #### isAlmostSameValueArray( v1, v2, maxULP )
@@ -82,7 +82,7 @@ bool = isAlmostSameValueArray( x, [ -1.0, 2.0 ], 1 );
 <!-- eslint no-undef: "error" -->
 
 ```javascript
-import isAlmostSameValueArray from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-almost-same-value-array@deno/mod.js';
+import isAlmostSameValueArray from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-almost-same-value-array@v0.1.0-deno/mod.js';
 
 var x = [ 1.0, 2.0, 3.0 ];
 var y = [ 1.0, 2.0, 3.0 ];
